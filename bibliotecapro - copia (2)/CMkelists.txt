@@ -1,0 +1,23 @@
+cmake_minimum_required(VERSION 3.15)
+project(BibliotecaProyecto)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(biblioe
+   main.cpp
+    login.cpp
+    menu.cpp
+    agregar_libro.cpp
+    prestar_libro.cpp
+    devolver_libro.cpp
+)
+
+include_directories("C:/Program Files/msys64/mingw64/include")
+link_directories("C:/Program Files/msys64/mingw64/lib")
+
+target_link_libraries(biblioe
+    pqxx
+    pq
+    ws2_32
+)

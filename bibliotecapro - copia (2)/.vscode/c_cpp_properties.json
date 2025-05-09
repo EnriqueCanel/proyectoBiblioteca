@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}",
+                "C:/Program Files/libpqxx/include",
+                "C:/Program Files/libpqxx/include/pqxx",
+                "C:/Program Files/PostgreSQL/15/include"
+            ],
+            "defines": [],
+            "compilerPath": "C:/Program Files/msys64/mingw64/bin/g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
